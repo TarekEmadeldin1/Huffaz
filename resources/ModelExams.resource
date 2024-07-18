@@ -76,6 +76,3 @@ Assert Question is selected correctly
     Sleep    10s
     Close Browser
     
-Hossam
-    Click Element    xpath=//*[@class='row setting-list']/*/*[7]
-    Sleep    10s

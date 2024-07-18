@@ -22,11 +22,11 @@ ${UserName}   super
 
 *** Test Cases ***
 Test Cases
-    #Add a section
-    #Cancel Button of Adding Button
+    Add a section
+    Cancel Button of Adding Button
     Edit a Section in Program Division
-    #Delete a Scetion in Program Division
-    #Cancel Deleting a Scetion in Program Division
+    Delete a Scetion in Program Division
+    Cancel Deleting a Scetion in Program Division
 
 *** Keywords ***
 

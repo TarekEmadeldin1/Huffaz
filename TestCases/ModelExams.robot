@@ -106,11 +106,3 @@ Assert Question is selected correctly
      ModelExams.Assert Question is selected correctly
      Sleep    10s
      Close Browser
-
-Hossam
-     HomePage.Valid Login
-     Sleep    5s
-     HomePage.Click Settings button
-     Sleep    5s
-     ModelExams.Hossam
-     Sleep    5s

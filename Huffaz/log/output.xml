@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.4 on win32)" generated="2024-07-04T13:16:15.526876" rpa="false" schemaversion="5">
+<suite id="s1" name="MyProgramsTCs" source="C:\Users\ArabDT\PycharmProjects\Huffaz\TestCases\MyProgramsTCs.robot">
+<test id="s1-t1" name="TestCase1 : Add new program" line="22">
+<kw name="HomePage.Valid Login" owner="HomePage">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-04T13:16:15.972906" level="INFO">Opening browser 'chrome' to base url 'http://74.249.194.145:1030/'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-04T13:16:15.971930" elapsed="4.895055"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-04T13:16:20.867962" elapsed="9.838995"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-04T13:16:30.707934" level="INFO">Clicking element 'xpath=(//a[contains(text(),'تسجيل الدخول')])[1]'.</msg>
+<arg>xpath=(//a[contains(text(),'تسجيل الدخول')])[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-04T13:16:30.706957" elapsed="0.076146"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-04T13:16:35.784944" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-04T13:16:30.784072" elapsed="5.000872"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-04T13:16:35.786891" level="INFO">Typing text 'super@super.com' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-04T13:16:35.784944" elapsed="0.180418"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-04T13:16:35.965362" level="INFO">Typing text 'P@ssw0rd' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-04T13:16:35.965362" elapsed="0.116148"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-04T13:16:36.082485" level="INFO">Clicking element 'xpath=//button[contains(@class,'UserLogin__Submit')]'.</msg>
+<arg>xpath=//button[contains(@class,'UserLogin__Submit')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-04T13:16:36.081510" elapsed="0.059535"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//li[contains(@class,'border-right')]/a</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-07-04T13:16:36.142021" elapsed="1.050734"/>
+</kw>
+<status status="PASS" start="2024-07-04T13:16:15.970955" elapsed="21.221800"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-04T13:16:42.194229" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-04T13:16:37.192755" elapsed="5.001474"/>
+</kw>
+<kw name="HomePage.Click My Programs Button" owner="HomePage">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-04T13:16:42.196193" level="INFO">Clicking element 'xpath=//*[@class='menu-scroll']/*/*[2]'.</msg>
+<arg>xpath=//*[@class='menu-scroll']/*/*[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-04T13:16:42.195215" elapsed="0.076548"/>
+</kw>
+<status status="PASS" start="2024-07-04T13:16:42.195215" elapsed="0.077525"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-04T13:16:47.274755" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-04T13:16:42.272740" elapsed="5.002015"/>
+</kw>
+<kw name="MyPrograms.Click AddProgram Button" owner="MyPrograms">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-04T13:16:47.277477" level="INFO">Clicking element 'xpath=//button[contains(@class,'cancel-btn')]'.</msg>
+<arg>xpath=//button[contains(@class,'cancel-btn')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-04T13:16:47.275533" elapsed="0.117083"/>
+</kw>
+<status status="PASS" start="2024-07-04T13:16:47.275533" elapsed="0.118058"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-04T13:16:52.395347" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-04T13:16:47.393591" elapsed="5.001756"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-04T13:16:52.396119" elapsed="6.397993"/>
+</kw>
+<doc>add new program.</doc>
+<status status="PASS" start="2024-07-04T13:16:15.969002" elapsed="42.826011"/>
+</test>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-07-04T13:16:58.795985" elapsed="0.000981"/>
+</kw>
+<status status="PASS" start="2024-07-04T13:16:15.558106" elapsed="43.238860"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="MyProgramsTCs">MyProgramsTCs</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

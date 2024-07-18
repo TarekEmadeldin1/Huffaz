@@ -1,0 +1,19 @@
+1720445827121	geckodriver	INFO	Listening on 127.0.0.1:54915
+1720445829913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54916" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tarek\\AppData\\Local\\Temp\\rust_mozprofileko0DmM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1720445840791	Marionette	INFO	Marionette enabled
+1720445852401	Marionette	INFO	Listening on port 54957
+Read port: 54957
+WebDriver BiDi listening on ws://127.0.0.1:54916
+1720445855238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54916/devtools/browser/1da1a5ce-1aa4-4e9a-abc0-f3e55231f6d8
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 939))
+1720445870840	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: http://74.249.194.145:1030/assets/scripts/fingerPrintLib.js, line 9: SyntaxError: export declarations may only appear at top level of a module
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 120: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 120: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://74.249.194.145:1030."
+1720445984208	Marionette	INFO	Stopped listening on port 54957
+Dynamically enable window occlusion 1
